@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import Banner from "./Banner";
+import Items from "./Items";
 
 export default class Body extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Banner />
+        <Items />
       </>
     );
   }
